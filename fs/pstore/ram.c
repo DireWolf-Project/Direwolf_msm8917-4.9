@@ -34,6 +34,8 @@
 #include <linux/slab.h>
 #include <linux/compiler.h>
 #include <linux/pstore_ram.h>
+#include <linux/bootmem.h>
+#include <linux/memblock.h>
 
 #include <linux/of.h>
 #include <linux/of_address.h>
