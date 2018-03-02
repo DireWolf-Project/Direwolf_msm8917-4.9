@@ -915,6 +915,7 @@ config MSM_BAM_DMUX
 		via pair of IPC GPIOs for inward and outward signals between MSM
 		and Blackghost(BG) SOC.
 
+
 	config MSM_BGCOM
 	bool "Provide APIs to communicate with Blackghost chipset"
 	help
@@ -922,6 +923,14 @@ config MSM_BAM_DMUX
 		communication between G-Link/bg_com_dev and BG processor over SPI.
 		This handle the interrupts raised by BG and notify the G-link with
 		interrupt event and event data.
+
+config CPUMAXFREQ
+	bool "Enable CPUMAXFREQ Proc Interface"
+	help
+	  Provide a interface for getting the maximum frequency supported by cpu core
+
+source "drivers/soc/qcom/memshare/Kconfig"
+
 
 source "drivers/soc/qcom/wcnss/Kconfig"
 
