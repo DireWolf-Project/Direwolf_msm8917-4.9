@@ -117,4 +117,3 @@ obj-$(CONFIG_SERIAL_NUM) += serial_num.o
 
 obj-$(CONFIG_SECBOOT_FUSE) += secboot_fuse.o
 
-
