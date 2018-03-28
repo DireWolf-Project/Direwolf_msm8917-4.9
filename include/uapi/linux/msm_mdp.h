@@ -76,8 +76,10 @@
 					      struct mdp_pp_feature_version)
 
 
-#define MSMFB_ENHANCE_SET_GAMMA		_IOWR(MSMFB_IOCTL_MAGIC, 172, unsigned int)
-#define MSMFB_ENHANCE_SET_CE		_IOWR(MSMFB_IOCTL_MAGIC, 173, unsigned int)
+#define MSMFB_ENHANCE_SET_GAMMA   _IOWR(MSMFB_IOCTL_MAGIC, 172, unsigned int)
+#define MSMFB_ENHANCE_SET_CE   _IOWR(MSMFB_IOCTL_MAGIC, 173, unsigned int)
+#define MSMFB_ENHANCE_SET_EYE   _IOWR(MSMFB_IOCTL_MAGIC, 174, unsigned int)
+#define MSMFB_SET_CABC   _IOWR(MSMFB_IOCTL_MAGIC, 175, unsigned int)
 
 
 #define FB_TYPE_3D_PANEL 0x10101010
