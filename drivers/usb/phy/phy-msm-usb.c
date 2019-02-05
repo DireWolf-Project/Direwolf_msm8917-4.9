@@ -74,12 +74,7 @@ enum usb_bus_vote {
  * USB_OTG              OTG mode is supported.
  *
  */
-enum usb_mode_type {
-	USB_NONE = 0,
-	USB_PERIPHERAL,
-	USB_HOST,
-	USB_OTG,
-};
+
 
 /**
  * OTG control
@@ -91,12 +86,7 @@ enum usb_mode_type {
  * OTG_USER_CONTROL	Id/VBUS notifcations comes from User via sysfs.
  *
  */
-enum otg_control_type {
-	OTG_NO_CONTROL = 0,
-	OTG_PHY_CONTROL,
-	OTG_PMIC_CONTROL,
-	OTG_USER_CONTROL,
-};
+
 
 /**
  * PHY used in
@@ -108,13 +98,7 @@ enum otg_control_type {
  * QUSB_ULPI_PHY
  *
  */
-enum msm_usb_phy_type {
-	INVALID_PHY = 0,
-	CI_PHY,			/* not supported */
-	SNPS_PICO_PHY,
-	SNPS_FEMTO_PHY,
-	QUSB_ULPI_PHY,
-};
+
 
 #define IDEV_CHG_MAX	1500
 #define IUNIT		100
