@@ -100,7 +100,7 @@ enum usb_bus_vote {
  */
 
 
-#define IDEV_CHG_MAX	1500
+
 #define IUNIT		100
 #define IDEV_HVDCP_CHG_MAX	1800
 
